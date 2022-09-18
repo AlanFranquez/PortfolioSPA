@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+}
+
+/* Header */ 
+.introduccion {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+
+
+.introduccion__titulo span {
+  color: #7C73E6;
+}
+
+.introduccion__detalles {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #6f6e77;
+} 
+
+.introduccion__redes_logos {
+  background-color: rgb(255, 255, 255);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.introduccion__redes_logos svg {
+  width: 30px;
+  height: 30px;
+  
+}
+
+.introduccion__redes_logos:hover {
+  background-color: #5a5591;
+}
+
+.introduccion__redes_logos:hover svg{
+  color: white;
+}
+
+/* Sobre mi */
+
+.about {
+  height: 100vh;
+}
+
+.about__titulo {
+  color:#7C73E6
+}
+
+.about p {
+  color: #6f6e77;
+  padding-right: 0;
+}
+
+.about img {
+  width: 600px;
+  height: 400px;
+}
+
+/* Proyectos UX */
+
+.proyectosux__texto {
+  margin-top: 20px;
+  
+}
+
+.proyectosux__p {
+  font-size: 18px;
+  color: #6f6e77;
+}
+
+.categoria__texto {
+  color: #6f6e77;
+}
+
+
+.proyectosux__img {
+  /* height: 700px;
+  width: 100%; */
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.proyectos__titulo {
+  color: #5a51be;
+}
+
+b {
+  color: #7C73E6;
+}
