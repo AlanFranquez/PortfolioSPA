@@ -2,7 +2,8 @@
 
 export const AboutMe = () => {
   return (
-    <div className="row justify-content-center align-items-center about">
+    <div className="container">
+<div className="row justify-content-center align-items-center about">
       <div className="col-md-6 animate__animated animate__fadeInLeft">
         <h2 className="mb-4 about__titulo">Sobre mí</h2>
                 <p>
@@ -19,9 +20,11 @@ export const AboutMe = () => {
       </div>
 
 
-      <div className="col-md-5 animate__animated animate__fadeInRight">
-          <img src={'/assets/about.svg'} alt="proyecto-imagen" />
+      <div className="col-md-6 animate__animated animate__fadeInRight">
+          <img src={'/assets/wireframes.png'} alt="proyecto-imagen" />
       </div>
     </div>
+    </div>
+    
   )
 }

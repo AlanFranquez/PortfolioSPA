@@ -2,8 +2,8 @@
 
 export const ProyectosUX = () => {
   return (
-    <>
 
+      <div className="container">
       <div className="proyectosux__texto">
         <h2 className="about__titulo text-center">Proyectos UX</h2>
         <p className="text-center proyectosux__p">Algunos de mis proyectos más destacados dentro del ambito UX</p>
@@ -75,8 +75,9 @@ export const ProyectosUX = () => {
           <img className="proyectosux__img" src={"/assets/3.png"} alt="" />
         </div>
       </div>
+      </div>
+      
       
     
-    </>
   )
 }

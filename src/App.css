@@ -12,6 +12,25 @@ img {
   width: 100%;
 }
 
+button {
+  background-color: #111111;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: all .1s ease-in-out;
+}
+
+button:hover {
+  background-color: #111111;
+
+}
+
+nav {
+  background-color: white!important;
+  color: black!important;
+}
+
 /* Header */ 
 .introduccion {
   height: 100vh;
@@ -24,7 +43,7 @@ img {
 
 
 .introduccion__titulo span {
-  color: #7C73E6;
+  color: #111111;
 }
 
 .introduccion__detalles {
@@ -52,12 +71,9 @@ img {
 }
 
 .introduccion__redes_logos:hover {
-  background-color: #5a5591;
+  background-color: #423f3f;
 }
 
-.introduccion__redes_logos:hover svg{
-  color: white;
-}
 
 /* Sobre mi */
 
@@ -66,7 +82,8 @@ img {
 }
 
 .about__titulo {
-  color:#7C73E6
+  color:#111111;
+  font-weight: 700;
 }
 
 .about p {
@@ -104,9 +121,38 @@ img {
 }
 
 .proyectos__titulo {
-  color: #5a51be;
+  color: #111111;
 }
 
 b {
-  color: #7C73E6;
+  color: #111111;
+}
+
+/* Footer */
+footer {
+  margin: 0;
+  background-color: #111111;
+  padding: 30px 0;
+}
+
+.logos-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-texto {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: #9e9ea5;
+}
+
+.download-button {
+    background-color: rgb(49, 49, 54);
+    border: none;
+    font-size: 14px;
+    padding: 10px 50px!important;
+    font-weight: 400!important;
 }

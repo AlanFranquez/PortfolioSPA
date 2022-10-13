@@ -8,7 +8,7 @@ export const PageRoutes = () => {
     <>
         <Navbar/>
 
-        <div className="container">
+        <div>
 
             <Routes>
                 <Route path="About" element={<AboutMe />}/>
