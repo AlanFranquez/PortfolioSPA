@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { AboutMe, Home, ProyectosDev, ProyectosUX } from "../pages"
+import { Footer } from "../UI/components/Footer"
 import { Navbar } from "../UI/components/Navbar"
 
 
@@ -26,6 +27,8 @@ export const PageRoutes = () => {
             </Routes>
 
         </div>
+
+        <Footer/>
     
     </>
   )

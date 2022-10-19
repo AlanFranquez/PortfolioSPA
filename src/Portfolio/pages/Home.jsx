@@ -6,22 +6,24 @@ export const Home = () => {
 
     <>
     
-    <header className="container">
+    <header >
 
         
 
-        <div className="introduccion container justify-content-center">
-            <p className="text-center">¡Bienvenido a mi portfolio! 🍜</p>
-            <h1 className="text-center introduccion__titulo animate__animated animate__fadeInRight">Hola, soy Alan Fránquez. <span className="fw-bold">Desarollador Web y Diseñador UX/UI</span></h1>
+        <div className="introduccion justify-content-center">
+            <p className="text-left introduccion__titulo animate__animated animate__fadeIn">¡Bienvenido a mi Portfolio!
+            </p>
 
-            <div className="animate__animated animate__fadeInLeft">
-              <p className="introduccion__detalles text-center animate__animated animate__fadeInLeft">Soy apasionado por la tecnología, diseño y el aprendizaje. Constantemente estoy adquiriendo nuevas habilidades, me dedico principalmente a la creación de paginas web y a todo el campo que involucra el campo de la experiencia de usuario, estoy capacitado para cubrir el área de Research, Writing y Maquetado (UI).</p>
+            <p className="text-left introduccion__titulo animate__animated animate__fadeIn">Hola, soy Alan Fránquez. <span className="fw-bold">Diseñador UX/UI y Desarollador web. </span>
+             Soy apasionado por la tecnología, diseño y el aprendizaje. Constantemente estoy adquiriendo nuevas habilidades, me dedico principalmente a la creación de paginas web y a todo el campo que involucra la experiencia de usuario, estoy capacitado para cubrir el área de Research, Writing y Maquetado (UI).
+            </p>
 
-              <p className="introduccion__detalles text-center">Si estás interesado en trabajar conmigo, por favor no dudes en contactarme.</p>
-            </div>
+
+
+            <p className="introduccion__detalles animate__animated animate__fadeIn">Si estás interesado en trabajar conmigo, por favor no dudes en contactarme.</p>
             
 
-            <div className="d-flex mt-5 introduccion_redes">
+            <div className="d-flex mt-5 introduccion_redes animate__animated animate__fadeIn">
               <a href="https://github.com/AlanFranquez" target='_blank'>
                 <div className="mx-2 introduccion__redes_logos">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#111111" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -69,8 +71,6 @@ export const Home = () => {
 
 
     </header>
-
-    <Footer />
     
     </>
 

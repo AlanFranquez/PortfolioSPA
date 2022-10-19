@@ -15,7 +15,7 @@ export const AboutMe = () => {
                     Siempre intento priorizar lo colectivo por encima de individual, considero que la mejor manera de lograr algo es en equipo. 
                 </p>
 
-                <p>Poseo un buen nivel de ingles y trabajo principalmente con la metodología de Design Thinking.</p>
+                <p>Poseo un buen nivel de ingles y trabajo principalmente con la metodología de Design Thinking y SCRUM.</p>
 
       </div>
 

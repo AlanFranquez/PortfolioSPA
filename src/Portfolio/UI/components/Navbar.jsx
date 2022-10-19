@@ -11,8 +11,9 @@ export const Navbar = () => {
                 Portfolio
             </Link>
 
+
             <div className="navbar-collapse">
-                <div className="navbar-nav">
+                <div className="container navbar-nav">
 
                     <NavLink 
                         className={(activo) => {
@@ -53,15 +54,23 @@ export const Navbar = () => {
                 </div>
             </div>
 
-            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
+            <div className="button-nav navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
                 <ul className="navbar-nav ml-auto">
-                    
-                    <button className='nav-item nav-link btn btn-secondary download-button'>
+                
+
+                    <a target="_blank" href={"/assets/Alan CV.pdf"} className="cv">
+                        <button className='nav-item nav-link btn btn-secondary download-button'>
                         ¡Descargar cv!
                     </button>
+
+                    </a>
+                    
+                    
 
                 </ul>
             </div>
         </nav>
+
+
   )
 }
